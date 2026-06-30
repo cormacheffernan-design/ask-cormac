@@ -91,7 +91,8 @@
 </div>
 
 <script>
-const EXAMPLES = ["How does the FintureAI market maker price a deal?","What's the fund's legal structure?","Who is our legal counsel?","Can we onboard a retail investor?"];
+let examples = [];          // [{label, query}] built at runtime from *.md files in the knowledge folder
+let examplesLoaded = false;
 let messages = [];
 let view = "chat";
 let loading = false;
@@ -166,9 +167,15 @@ function render(){
     let h = "";
     if(messages.length===0){
       h += '<div class="empty"><svg width="34" height="34" viewBox="0 0 100 100"><g fill="#1030A0"><rect x="38" y="2" width="24" height="24" rx="3" transform="rotate(45 50 14)"/><rect x="38" y="74" width="24" height="24" rx="3" transform="rotate(45 50 86)"/><rect x="2" y="38" width="24" height="24" rx="3" transform="rotate(45 14 50)"/><rect x="74" y="38" width="24" height="24" rx="3" transform="rotate(45 86 50)"/></g><rect x="40" y="40" width="20" height="20" rx="2.5" transform="rotate(45 50 50)" fill="#00A9C2"/></svg>';
-      h += '<h1 class="disp">Ask anything Cormac would know.</h1><p>The fund, the structure, FintureAI, a process, a counterparty. If it\'s a compliance or legal call, it\'ll point you to the right person rather than guess.</p><div class="chips">';
-      EXAMPLES.forEach(e => h += '<button class="chip" onclick="send('+JSON.stringify(e).replace(/"/g,'&quot;')+')">'+esc(e)+'</button>');
-      h += '</div></div>';
+      h += '<h1 class="disp">Ask anything Cormac would know.</h1><p>The fund, the structure, FintureAI, a process, a counterparty. If it\'s a compliance or legal call, it\'ll point you to the right person rather than guess.</p>';
+      if(examples.length){
+        h += '<div class="chips">';
+        examples.forEach(e => h += '<button class="chip" onclick="send('+JSON.stringify(e.query).replace(/"/g,'&quot;')+')">'+esc(e.label)+'</button>');
+        h += '</div>';
+      } else if(!examplesLoaded){
+        h += '<div class="chips"><span class="chip" style="cursor:default;opacity:.55">Loading topics…</span></div>';
+      }
+      h += '</div>';
     }
     messages.forEach(msg => {
       if(msg.role==="user"){ h += '<div class="row u"><div class="bub-u">'+esc(msg.content)+'</div></div>'; }
@@ -209,8 +216,29 @@ function render(){
   m.innerHTML = h;
 }
 
+async function loadExamples(){
+  try{
+    const res = await fetch("/api/files");
+    if(res.ok){
+      const data = await res.json();
+      const list = Array.isArray(data) ? data : (data.files || data.items || []);
+      const names = list
+        .map(f => typeof f === "string" ? f : (f && (f.name || f.filename || f.title)) || "")
+        .filter(n => /\.md$/i.test(n));
+      examples = names.map(n => {
+        const topic = n.replace(/\.md$/i, "").replace(/[._-]+/g, " ").trim();
+        const q = "I want to know more about " + topic;
+        return { label: q, query: q };
+      });
+    }
+  }catch(e){ /* no suggestions if the knowledge folder can't be reached */ }
+  examplesLoaded = true;
+  if(view==="chat" && messages.length===0) render();
+}
+
 $("input").addEventListener("keydown", (e)=>{ if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); send(); }});
 render();
+loadExamples();
 </script>
 </body>
 </html>
