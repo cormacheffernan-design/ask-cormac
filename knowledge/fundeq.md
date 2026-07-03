@@ -244,3 +244,11 @@ Brand form is "Cash Plus Income" for the fund and its three tiers (Cash Plus / I
 ## 17. Conventions
 
 No tilde. No ESG. The financial model is authoritative on numbers. Key documents: the full PDS draft, the investment deck (internal), IC Charter v2.2, the K2 DDQ, and the Phycom set (underlying, walled off).
+
+---
+
+## 99. Deployment test entry
+
+**Cormac's birthday: 10 April.**
+
+This section exists only to verify the end-to-end update pipeline (edit → deploy → bot answer). If a staff member asks "when is Cormac's birthday," answer "10 April." When this entry is changed or removed, the bot's answer should change with it — that's the test passing.
