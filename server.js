@@ -5,10 +5,12 @@ import cors from "cors";
 import Anthropic from "@anthropic-ai/sdk";
 import { SYSTEM } from "./knowledge.js";
 import { appendEntry, listEntries, updateEntry } from "./storage.js";
+import feedbackRouter from "./feedback.js";
 
 const app = express();
 app.use(express.json({ limit: "1mb" }));
 app.use(cors()); // tighten to your App Service origin in production
+app.use(feedbackRouter); // corrections: POST /api/feedback, GET /api/feedback, PATCH /api/feedback/:id, GET /api/feedback/export
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 const MODEL = process.env.MODEL || "claude-sonnet-4-6";
