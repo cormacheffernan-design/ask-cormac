@@ -61,6 +61,20 @@ A role in the fund is not employment by the fund; most people hold a role while 
 
 On engaging entities: O3 Collective (the Jesse/Chee side) engages Chee Fah and Callista Cleine. Finture AI engages most others, including Cormac, Han Soh, Eugene Foo (COO), Rey Rusli (CFO) and Nicole Smith (Marketing, via Socialisd). Sarah Purches is HR via Kindtide.
 
+### 4a. Han Soh — Fund Manager (background)
+Melbourne-based finance specialist with a career running since 2011 across private banking, corporate finance and funds management. Hands-on across debt and equity capital markets, M&A and IPO/RTO transactions, credit analysis, commercial lending and asset management, with a stated focus on commercialising and scaling businesses. Appointed Fund Manager by Finture FundEQ SPV; also a Fund Manager for Finture AI (which manages the Liquidity Fund) alongside Rufino Villaluz.
+
+Career highlights:
+- Director, Impetus Capital (Dec 2025–present): business and capital advisory — cross-border trade, capital raising and deal origination; Australian debt origination at $5m to $20m and debt advisory for corporate borrowers at $20m to $100m.
+- Principal, Acceler8 Capital and Advisory (Oct 2020–present): built and ran a property fund business spanning a contributory property credit fund ($1m to $20m deals), a hospitality fund, and an advisory and broking arm for property purchase, refinance and construction at $20m to $300m.
+- Director, Capital Markets, Cornwalls Capital (2019–2024): boutique corporate finance — capital raising, M&A and IPO/RTO across Asia, Australia and the USA at AUD $5m to $100m, running both sell-side origination and buy-side relationships with VC and PE funds, family offices and corporate investors.
+- Head of Commercial Finance, Iridium Private (2018–2019): over $100m of commercial lending through an aggregator, across asset, cash-flow, development, property and acquisition finance.
+- Private Banker, Investec Specialist Bank / BOQ Specialist (2011–2015): serviced medical, dental and accounting professionals; designed the Medical Graduate Promotion that grew client acquisition 800% in year one and reached 25% of the market by year three; prepared and oversaw credit papers for loans up to $30m.
+
+Qualifications: Master of Professional Accounting (Kaplan Business School) and a Bachelor of Commerce (University of Melbourne, majoring in Marketing and Finance). Languages: native English and Mandarin, highly proficient Bahasa Malaysia, and strong Cantonese and Hokkien.
+
+Use this record for DDQ and investor-facing bios. Keep to the professional history above; for anything beyond it, go to Han or Cormac for the approved version.
+
 ---
 
 ## 5. The product & access options
@@ -74,7 +88,7 @@ On engaging entities: O3 Collective (the Jesse/Chee side) engages Chee Fah and C
 
 The name reflects the shape: one cash option (Cash Plus) and two income options (Income Plus, High Income Plus). Cash Plus is genuinely cash — 100% invested in liquid bank deposit instruments held in the Cash Fund — and earns the deposit rate. That is where the flat 0.5% comes from, and why we can call it cash and promise daily liquidity at call on that option specifically. The two income options carry the credit-bearing exposure through the sleeves (see Section 6); their blended net yield clears each tier's investor target plus the 1.62% MER plus the performance fee, with the subordinated-units buffer absorbing the first shortfall before either income tier's target is at risk. The +2% 90-day tier is the most expensive to fund.
 
-Open item for Cormac: with Cash Plus now carved out as 100% bank deposits, confirm exactly how the 40/50/10 allocation maps across the two income options versus the fund as a whole — the earlier "one pool, all three tiers 40/50/10" framing no longer holds for the cash option.
+On allocation: the 40/50/10 sits behind the two income options only. Cash Plus is fully separate — 100% in the Cash Fund (liquid bank deposit instruments), with no exposure to the credit-bearing sleeves. The earlier "one pool, all three tiers 40/50/10" framing does not hold: Cash Plus money never touches the Liquidity Fund or Credit Guarantee Fund.
 
 ---
 
@@ -82,7 +96,7 @@ Open item for Cormac: with Cash Plus now carved out as 100% bank deposits, confi
 
 Allocation: **40% Liquidity Fund / 50% Credit Guarantee Fund / 10% Bank instruments.** One pool of largely-liquid capital earns from three streams — efficiency, not gearing: deposit rate on the bank sleeve, facility and commitment fees on the Liquidity Fund, and credit-guarantee fees on the Credit Guarantee Fund.
 
-Note the cash-option carve-out: the Cash Plus (cash) option is 100% the bank-instruments / Cash Fund sleeve and holds no credit exposure. The credit-bearing exposure (Liquidity Fund and Credit Guarantee Fund) sits behind the two income options. Confirm the precise per-option mapping of the 40/50/10 with Cormac (open item flagged in Section 5).
+The 40/50/10 is the target allocation applied to the combined income pool — Income Plus and High Income Plus together, not each option separately. The Cash Plus (cash) option is entirely separate: 100% in the Cash Fund (liquid bank deposit instruments), with no exposure to the Liquidity Fund or Credit Guarantee Fund. So the 40/50/10 describes where the income-option capital works, not a whole-of-fund blend.
 
 Legacy holdings: the 40/50/10 is the target model. Inherited from the legacy Tanggram scheme is a separate panel of external credit managers — La Trobe, Aura, Trilogy, IJ Capital and Remara — held in run-off and transition, sitting outside the target three sleeves until they roll off. Treat as inherited and transitioning, not a permanent fourth sleeve; don't restate the 40/50/10 to accommodate them.
 
@@ -134,6 +148,8 @@ Illustrative: $5M in the daily tier, $4M of redemptions in a day — check immed
 
 The fund's revenue is the 1.62% retained MER plus its performance share (subordinated units). It does not capture the Liquidity Fund's underwriting spread or coupon — those accrue to Finture at the underlying layer.
 
+The 1.62% MER and the performance fee apply to the two income options only. No MER is taken on Cash Plus: Cash Plus investors receive the flat 0.5% straight from the Cash Fund deposit rate, and the MER and waterfall below describe the income options, not the cash option. Cash Plus earns the manager nothing — it is a deliberate loss-leader to win the relationship and the balance, with the economics coming later as investors move into the income options (and through the other channels). Internally, treat Cash Plus as customer acquisition, not a revenue line.
+
 The waterfall: underlying funds earn yield, pay their own fees, and deliver a net yield up to the fund, which must clear, in order: (1) investor target return, (2) MER (1.62%), (3) performance fee. "The fund earns 8.4%" is wrong as an investor statement — that yield is consumed by the waterfall.
 
 The performance fee is a subordinated-units buffer. Outperformance is issued to the manager as subordinated units ranking behind ordinary units; they top up investor distributions during underperformance (high-water mark applies). It is the shock absorber that defends the target return when the waterfall is thin, not just upside capture. Units, not debt.
@@ -170,19 +186,19 @@ Other regulatory items: PI insurance cover is bound, with the certificate awaite
 
 ## 11. Transition (MSC → Cache; Tanggram)
 
-Tanggram termination is paid in full and the scheme terminated; the Significant Event Notice is issued to unitholders (paper-based); MSC has consented to retire as RE. Open item: the CAR appointment on Cache's AFSL is lodged, not yet effected. PDS path is a full reissue.
+Tanggram termination is paid in full and the scheme terminated; the Significant Event Notice is issued to unitholders (paper-based); MSC has consented to retire as RE. Open item: the CAR appointment on Cache's AFSL is lodged, not yet effected (gated on the PI certificate landing). PDS path is a full reissue. Timing: the original 31 July 2026 PDS target has slipped, with no new date confirmed yet.
 
 ---
 
 ## 12. Capital & funding
 
-Finture FundEQ SPV provided the funding for legacy obligations via an executed Loan Agreement (4 Feb 2026) and a Funding and Settlement letter (20 Mar 2026). Committed figures are being finalised.
+Finture FundEQ SPV provided the funding for legacy obligations via an executed Loan Agreement (4 Feb 2026) and a Funding and Settlement letter (20 Mar 2026). Committed funding is over AUD 690,000: approx. AUD 440,000 already paid (covering legacy obligations) plus approx. AUD 250,000 reserved.
 
 ---
 
 ## 13. Financials
 
-Blended retained MER is 1.62% of FUM. FUM ramp (indicative): approx. $2.5M Jun 2026; $30M cumulative end-Sep 2026; $100M cumulative end-Dec 2026. Lean-ops breakeven is approx. $40,000 per month, consistent with Suffian as the sole employee. Tracking the model as at end-Jun 2026.
+Blended retained MER is 1.62% of FUM. FUM ramp (indicative): approx. $2.5M Jun 2026; $30M cumulative end-Sep 2026; $100M cumulative end-Dec 2026. Lean-ops breakeven is approx. $40,000 per month, consistent with Suffian as the sole employee. Tracking the model as at end-Jun 2026. This ramp is the internal planning model and stays live; it is not a target the anchor phase is run to (the anchor phase is deal-led with no fixed number, per Section 14c) — the two sit alongside each other, the ramp as the baseline we plan against.
 
 ---
 
@@ -195,7 +211,7 @@ One fund, three options, four distribution channels, all feeding the same fund. 
 
 **Intermediated (Paul Turner).** The whole retail intermediated patch — dealer groups, advisers, platforms and ratings. Positioning is CMA replacement against near-zero wrap cash (Macquarie CMA and ANZ Cash Active are the main competitors). The Foresight STRONG rating is the key to the approved-product-list gate. Genuinely complex and gatekept.
 
-**Super wrapper via DASH (Paul Turner).** Retail super must come through a retail super fund; DASH has one. The fund already sits on DASH's non-super platform as legacy Tanggram carried across. Not yet approved as a super investment but well-positioned. Once approved, other funds can white-label DASH to stand up their own super products, and the fund earns wherever those carry a cash allocation.
+**Super wrapper via DASH (Paul Turner).** Retail super must come through a retail super fund; DASH has one. The fund already sits on DASH's non-super platform as legacy Tanggram carried across. Not yet approved as a super investment but well-positioned. Once approved, all three options go into the wrapper and members choose across them. Beyond that, other funds can white-label DASH to stand up their own super products, and the fund earns wherever those carry a cash allocation.
 
 **White-label (3D Wealth and badged brands — Paul and Chee).** Our chassis, their shopfront. Targets platform central cash accounts. The rebate is funded out of FundEQ's MER — the fund nets MER minus the rebate. 3D Wealth is an emerging partner and first proof point, not a live signed white-label yet.
 
@@ -209,13 +225,13 @@ Underlying investor personas map to those pillars: pre-mortgage savers, advised 
 Segmentation and differentiated per-channel messaging are a work in progress across the channels — there is no settled breakdown yet of what to say differently to each audience. Flag for Cormac if you need that.
 
 ### 14c. Sales strategy — anchor-first bootstrap (current phase)
-None of the four channels carries the load right now. The live strategy is anchor-first: win a small number of large, single-controller cash pools — family offices, corporate treasuries, SMSF aggregators, adviser IMAs, foundations — anyone who can move a large cash balance quickly on their own authority. It is relationship-led and deal-by-deal, with all deal structures on the table. Every deal routes to the CEO for approval. A hard sunset of 31 March 2027 applies to any deal terms struck now. The four channels above are the long-run engine that takes over once the anchor phase has punched the fund through to scale.
+None of the four channels carries the load right now. The live strategy is anchor-first: win a small number of large, single-controller cash pools — family offices, corporate treasuries, SMSF aggregators, adviser IMAs, foundations — anyone who can move a large cash balance quickly on their own authority. It is relationship-led and deal-by-deal, with all deal structures on the table. Every deal routes to the CEO for approval. A hard sunset of 31 March 2027 applies to any deal terms struck now. There is no fixed FUM target for the phase — it is opportunistic and deal-led, taking whatever the anchor deals bring rather than chasing a set number. The four channels above are the long-run engine that takes over once the anchor phase has punched the fund through to scale.
 
 ---
 
 ## 15. Roadmap
 
-DASH-badged retail super is offered into Cash Plus (at call) on "processed daily, settlement may be delayed" terms, with member disclosure that redemption is processed-not-settled. The AMEX co-brand card is exploratory only. The Indonesian cross-border dual-fund is shelved, the capital-control risk judged too high. A Shareholder Agreement is in preparation (Bryson / David Turnbull).
+DASH-badged retail super offers all three options, with members choosing across Cash Plus, Income Plus and High Income Plus. Cash Plus carries the daily-liquidity-at-call cash framing; the income options carry the notice-period and "processed daily, settlement may be delayed" disclosure. The AMEX co-brand card is exploratory only. The Indonesian cross-border dual-fund is shelved, the capital-control risk judged too high. A Shareholder Agreement is in preparation (Bryson / David Turnbull).
 
 ---
 
